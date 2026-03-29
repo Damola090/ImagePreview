@@ -59,6 +59,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
 
-//    implementation(project(":image-preview"))
-    implementation("com.github.Damola090:ImagePreview:1.0.2")
+    implementation(project(":image-preview"))
 }
