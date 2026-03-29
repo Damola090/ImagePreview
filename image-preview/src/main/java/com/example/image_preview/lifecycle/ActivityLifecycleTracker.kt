@@ -12,7 +12,7 @@ import com.example.image_preview.core.EventTracker
  *
  * This is one of the most powerful patterns in SDK development.
  */
-class ActivityLifecycleTracker(
+internal class ActivityLifecycleTracker(
     private val tracker: EventTracker,
     private val shouldTrackScreenViews: Boolean = true
 ) : Application.ActivityLifecycleCallbacks {
