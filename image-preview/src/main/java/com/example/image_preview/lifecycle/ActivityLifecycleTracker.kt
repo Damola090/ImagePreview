@@ -3,6 +3,7 @@ package com.example.image_preview.lifecycle
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
+import com.example.image_preview.core.EventTracker
 
 /**
  * Automatically captures screen views by hooking into the Application
